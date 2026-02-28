@@ -2,6 +2,6 @@
 
 # Main Function
 def top():
-    t = float(input('Enter the top length: '))
+    t = float(input('Enter the top: '))
 
     return t
