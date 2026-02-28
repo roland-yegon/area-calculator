@@ -8,6 +8,7 @@ import models.semicircle as semicircle
 import models.cone as cone
 import models.triangle as triangle
 import models.rectangle as rectangle
+import models.square as square
 
 # Welcome text
 print('\n\n')
@@ -32,6 +33,8 @@ def solve():
         solution = triangle.triangle()
     elif problem_choice == 6:
         solution = rectangle.rectangle()
+    elif problem_choice == 7:
+        solution = square.square()
     else:
         solution = print('Exiting the program...')      
 
