@@ -9,6 +9,7 @@ import models.cone as cone
 import models.triangle as triangle
 import models.rectangle as rectangle
 import models.square as square
+import models.trapezium as trapezium
 
 # Welcome text
 print('\n\n')
@@ -35,6 +36,8 @@ def solve():
         solution = rectangle.rectangle()
     elif problem_choice == 7:
         solution = square.square()
+    elif problem_choice == 10:
+        solution =trapezium.trapezium()
     else:
         solution = print('Exiting the program...')      
 
