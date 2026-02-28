@@ -10,7 +10,7 @@ import models.triangle as triangle
 import models.rectangle as rectangle
 import models.square as square
 import models.rhombus as rhombus
-import models.paralelogram as paralelogram
+import models.parallelogram as parallelogram
 import models.trapezium as trapezium
 
 
@@ -42,7 +42,7 @@ def solve():
     elif problem_choice == 8:
         solution = rhombus.rhombus()
     elif problem_choice == 9:
-        solution = paralelogram
+        solution = parallelogram.parallelogram()
     elif problem_choice == 10:
         solution =trapezium.trapezium()
     else:
