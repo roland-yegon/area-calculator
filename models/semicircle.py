@@ -2,13 +2,13 @@
 
 # Import
 import models.radius as radius
-import models.lengthunit as lengthunit
+import models.unit as unit
 
 # Function for semi circle area
 def semi_circle():
     # Inputs
     r = radius.radius()
-    units = lengthunit.length_unit()
+    units = unit.unit()
 
     # Calculations
     pi = 3.141592653589793

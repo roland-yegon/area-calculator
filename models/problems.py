@@ -16,12 +16,13 @@ Available shapes whose area can be calculated:
     8.  Rhombus 
     9.  Parralelogram
     10. Trapezium
+    00. Exit
 """)
 
-    problems_options = range(1,11)
+    problems_options = [00, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
     problems_choice = None
 
     while problems_choice not in problems_options:
-        problems_choice = int(input('Choose one above(1-10): '))
+        problems_choice = int(input('Choose one above(1-10 or 00): '))
 
     return problems_choice

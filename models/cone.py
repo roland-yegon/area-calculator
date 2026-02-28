@@ -2,7 +2,7 @@
 
 # Imports
 import models.radius as radius
-import models.lengthunit as lengthunit
+import models.unit as unit
 
 # Function that calculates
 def cone():
@@ -14,7 +14,7 @@ def cone():
         conetype = input('What is the type of cone(closed/open): ').lower()
     
     r = radius.radius()
-    units = lengthunit.length_unit()
+    units = unit.unit()
 
     # Calculations
     pi = 3.141592653589793

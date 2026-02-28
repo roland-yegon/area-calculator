@@ -1,14 +1,14 @@
 """ A script that contains functions for area of a sphere """
 
 # Imports
-import models.lengthunit as lengthunit
+import models.unit as unit
 import models.radius as radius
 
 # Function for area of a sphere
 def sphere():
     # Inputs
     r = radius.radius()
-    units = lengthunit.length_unit()
+    units = unit.unit()
 
     # Calculation
     pi = 3.141592653589793

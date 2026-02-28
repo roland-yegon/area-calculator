@@ -1,7 +1,7 @@
 """ A script containing functions for area operations of a circle """
 
 # Import required functions
-import models.lengthunit as lengthunit
+import models.unit as unit
 import models.radius as radius
 
 # Function for the area of a circle
@@ -10,7 +10,7 @@ def circle():
     r = radius.radius()
 
     # Units input
-    units = lengthunit.length_unit()
+    units = unit.unit()
 
     # Area calculation
     pi = 3.141592653589793

@@ -1,7 +1,7 @@
 """ A script for units of a length """
 
 # Main unit function
-def length_unit():
+def unit():
     print('Available units:\n\t1. cm\n\t2. m\n\t3. km')
     options = ['1', '2', '3']
     choice = None
