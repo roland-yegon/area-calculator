@@ -8,8 +8,8 @@ def available_problems():
 Available shapes to calculate area:
     1.  Circle
     2.  Semi-circle
-    3.  Sphere
-    4.  Cone
+    3.  Surface Area of a Sphere
+    4.  Surface Area of a Cone
     5.  Triangle
     6.  Rectangle
     7.  Square      

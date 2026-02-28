@@ -3,6 +3,7 @@
 # Necessary imports
 import models.problems as problems
 import models.circle as circle
+import models.sphere as sphere
 
 # Welcome text
 print('\n\n')
@@ -17,6 +18,8 @@ problem_choice = problems.available_problems()
 def solve():
     if problem_choice == 1:
         solution = circle.circle()
+    elif problem_choice == 3:
+        solution = sphere.sphere()
     else:
         solution = print('Not yet available')
 
