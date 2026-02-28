@@ -19,5 +19,4 @@ def semi_circle():
     pi = 3.141592653589793
     area = 0.5 * pi * r**2
 
-    print('\n')
-    return print(f"The area of the semicircle is: {area} {units}")
+    return print(f"\nThe area of the semicircle is: {area} {units}\n")

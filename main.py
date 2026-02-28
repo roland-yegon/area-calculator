@@ -7,6 +7,7 @@ import models.sphere as sphere
 import models.semicircle as semicircle
 import models.cone as cone
 import models.triangle as triangle
+import models.rectangle as rectangle
 
 # Welcome text
 print('\n\n')
@@ -29,6 +30,8 @@ def solve():
         solution = cone.cone()
     elif problem_choice == 5:
         solution = triangle.triangle()
+    elif problem_choice == 6:
+        solution = rectangle.rectangle()
     else:
         solution = print('Exiting the program...')      
 

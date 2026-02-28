@@ -23,5 +23,4 @@ def triangle():
     # Calculations
     area = 0.5 * b * h
 
-    print('\n')
-    return print(f"The area of the triangle is: {area} {units}")
+    return print(f"\nThe area of the triangle is: {area} {units}\n")

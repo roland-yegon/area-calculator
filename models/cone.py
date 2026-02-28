@@ -29,5 +29,4 @@ def cone():
     else:
         area = (1 / 3) * pi * r**2 + pi * r**2
 
-    print('\n')
-    return print(f"The area of the cone is: {area} {units}")
+    return print(f"\nThe area of the cone is: {area} {units}\n")
