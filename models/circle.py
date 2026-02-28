@@ -13,10 +13,8 @@ def circle():
     units = lengthunit.length_unit()
 
     # Area calculation
-    pi = 22 / 7
+    pi = 3.141592653589793
     area = pi * r**2
 
     # Result output
-    print(f'The area of the circle is: {area} {units}')
-    
-    return area
+    return print(f'The area of the circle is: {area} {units}')

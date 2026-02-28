@@ -1,9 +1,11 @@
-""" The main script for all operations """
+""" The main script for all calculations """
 
 # Necessary imports
 import models.problems as problems
 import models.circle as circle
 import models.sphere as sphere
+import models.semicircle as semicircle
+import models.cone as cone
 
 # Welcome text
 print('\n\n')
@@ -18,8 +20,12 @@ problem_choice = problems.available_problems()
 def solve():
     if problem_choice == 1:
         solution = circle.circle()
+    elif problem_choice == 2:
+        solution = semicircle.semi_circle()
     elif problem_choice == 3:
         solution = sphere.sphere()
+    elif problem_choice == 4:
+        solution = cone.cone()
     else:
         solution = print('Not yet available')
 

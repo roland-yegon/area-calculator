@@ -11,9 +11,7 @@ def sphere():
     units = lengthunit.length_unit()
 
     # Calculation
-    pi = 22 / 7
+    pi = 3.141592653589793
     area = 4 * pi * r**2
 
-    print(f'The area of your sphere is: {area} {units}')
-
-    return area
+    return print(f'The area of your sphere is: {area} {units}')

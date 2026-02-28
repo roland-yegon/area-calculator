@@ -5,7 +5,7 @@ def available_problems():
 
     # Displaying that can be solved
     print("""
-Available shapes to calculate area:
+Available shapes whose area can be calculated:
     1.  Circle
     2.  Semi-circle
     3.  Surface Area of a Sphere
