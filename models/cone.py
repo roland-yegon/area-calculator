@@ -7,6 +7,11 @@ import models.unit as unit
 # Function that calculates
 def cone():
     # Inputs
+    print('\n')
+    print('=' * 30)
+    print('\tArea of a cone')
+    print('=' * 30)
+    
     coneoptions = ['open', 'closed']
     conetype = None
 
@@ -24,4 +29,5 @@ def cone():
     else:
         area = (1 / 3) * pi * r**2 + pi * r**2
 
+    print('\n')
     return print(f"The area of the cone is: {area} {units}")

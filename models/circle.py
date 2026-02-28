@@ -6,10 +6,13 @@ import models.radius as radius
 
 # Function for the area of a circle
 def circle():
-    # Radius input
+    # Inputs
+    print('\n')
+    print('=' * 30)
+    print('\tArea of a circle')
+    print('=' * 30)
+    
     r = radius.radius()
-
-    # Units input
     units = unit.unit()
 
     # Area calculation
@@ -17,4 +20,4 @@ def circle():
     area = pi * r**2
 
     # Result output
-    return print(f'The area of the circle is: {area} {units}')
+    return print(f'\nThe area of the circle is: {area} {units}')

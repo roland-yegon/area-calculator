@@ -7,6 +7,11 @@ import models.unit as unit
 # Function for semi circle area
 def semi_circle():
     # Inputs
+    print('\n')
+    print('=' * 30)
+    print('\tArea of a semi circle')
+    print('=' * 30)
+
     r = radius.radius()
     units = unit.unit()
 
@@ -14,4 +19,5 @@ def semi_circle():
     pi = 3.141592653589793
     area = 0.5 * pi * r**2
 
+    print('\n')
     return print(f"The area of the semicircle is: {area} {units}")
