@@ -23,4 +23,4 @@ def rectangle():
     # Calculations
     area = l * w
 
-    return print(f'\nThe area of the rectangle is: {area} {units}\n')
+    return print(f'\nThe area of the rectangle is: {area} {units}\u00b2\n')

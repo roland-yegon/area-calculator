@@ -20,4 +20,4 @@ def sphere():
     area = 4 * pi * r**2
 
     print('\n')
-    return print(f'\nThe area of your sphere is: {area} {units}\n')
+    return print(f'\nThe area of your sphere is: {area} {units}\u00b2\n')

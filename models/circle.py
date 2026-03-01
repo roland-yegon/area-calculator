@@ -20,4 +20,4 @@ def circle():
     area = pi * r**2
 
     # Result output
-    return print(f'\nThe area of the circle is: {area} {units}\n')
+    return print(f'\nThe area of the circle is: {area} {units}\u00b2\n')

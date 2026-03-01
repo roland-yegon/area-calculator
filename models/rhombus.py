@@ -47,4 +47,4 @@ The available options for area of rhombus:
 
         area = b * h
 
-    return print(f'The area of the rhombus is: {area} {units}')
+    return print(f'The area of the rhombus is: {area} {units}\u00b2\n')

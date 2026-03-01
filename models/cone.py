@@ -35,4 +35,4 @@ What type of cone are you dealing with
     else:
         area = (1 / 3) * pi * r**2 + pi * r**2
 
-    return print(f"\nThe area of the cone is: {area} {units}\n")
+    return print(f"\nThe area of the cone is: {area} {units}\u00b2\n")

@@ -18,4 +18,4 @@ def square():
     # Calculations
     area = l**2
 
-    return print(f'\nThe area of the square is: {area} {units}\n')
+    return print(f'\nThe area of the square is: {area} {units}\u00b2\n')

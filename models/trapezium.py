@@ -25,4 +25,4 @@ def trapezium():
     # Calculation
     area = 0.5 * h * (b + t)
 
-    return print(f'\nThe area of the trapezium is: {area} {units}')
+    return print(f'\nThe area of the trapezium is: {area} {units}\u00b2')

@@ -47,4 +47,4 @@ The available options for area of parallelogram:
 
         area = b * h
 
-    return print(f'The area of the parallelogram is: {area} {units}')
+    return print(f'The area of the parallelogram is: {area} {units}\u00b2\n')
